@@ -1,35 +1,31 @@
-# سورس اصلی ربات پی وی رسان
-# @PvResanBot
-# دست هیچ بنی بشری نیست و نخواهد بود
+Getting updates via Webhook
+Please check the following wiki section for more information on this.
 
-# این سورس ای هم که داخل این گیت هاب هست
-# سورس ورژن یک پی وی رسان هست
-# و پی وی رسان هم اکنون از سورس ورژن های بالاتر استفاده میکند
+Inline bots
+Please checkout the special wiki page about inline bots.
 
-# تیم برنامه نویسی FTC
-# با آدرس سایت
-# https://feelthecode.com
+Extra requirements
+If you want to use this package, you'll need a bot API key. Check the following documentation for more instructions on that.
 
-# اولین سازنده ربات پیام رسان فارسی در تلگرام
-# و تنها برنامه نویس ربات پی وی رسان می باشد
+Getting everything started up
+The most difficult thing to do when performing an action with the Telegram API is to get the chat_id, which is the actual conversation window the bot talks to. You can execute the GetUpdates() method in order to get this chatId. Note that there are some caveats on this, so you may be better out with the SetWebhook() method instead.
 
-# لطفا از هیچکس هیچ سورس و یا آموزش تقلبی را خریداری نکنید
-# نرم افزار های موجود در سطح اینترنت نیز
-# برای ساخت ربات پیام رسان
-# کلاه برداری بیش نیستند
+Development
+Semver
+I will try my best to respect Semantic Versioning.
+That being said, the first stable release is v1.0.0, from there on no mayor BC changes will occur unless we update the major.
 
-# در صورت مشاهده این گونه افراد
-# حتما با استفاده از فرم تماس با ما
-# موجود در وب سایت ما
-# یا از طریق تماس با کارشناسان ما
-# ما را در جریان قرار دهید تا پیگیری های لازم
-# صورت پذیرد
+Want to colaborate?
+Collaborations are very welcome! Check this Wiki page out for more information that will make the development easier!
 
-site: https://feelthecode.com
--
-Telegram Bot: https://telegram.me/PvResanBot
--
-Telegram Channel: https://telegram.me/PvResan
+Contact the author
+Telegram
 
--
-یا علی خدا قوت
+I actually don't use Telegram. Nah, kidding. Another great way to help is to simply create an issue or a pull request!
+
+Bugs related with security
+I would appreciate it if you could handle these responsibly. If you happen to find a security issue relating to this Telegram Bot API client, please ask me to contact you privately over here.
+
+Special thanks to
+https://max-shop.ir
+
